@@ -1,0 +1,166 @@
+#title {
+    background-color: #ff4c68;
+}
+
+.container-fluid {
+    padding: 3% 15%;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Montserrat', bold;
+    
+}
+
+h1 {
+    size: 3.5rem;
+    line-height: 1.5;
+    color: #ffff;
+}
+
+h2 {
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+h3 {
+    font-size: 1.5rem;
+}
+
+.navbar {
+    padding-bottom: 4.5rem;
+}
+
+.navbar-brand {
+    font-family: ubuntu;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.nav-item {
+    padding: 0 18px;
+}
+
+.nav-link {
+    font-size: 1.2rem;
+}
+
+.download-button {
+    margin: 5% 3% 5% 0;
+}
+
+.title-img {
+    width: 30px;
+    height: 30px;
+    color: #fff; 
+}
+
+.img-rotate {
+    transform: rotate(25deg);
+    padding-top: 2rem;
+    max-width: 60%;
+}
+
+/*FEATURES*/
+.icon {
+    width: 40px;
+    height: 40px;
+    margin-bottom: 1rem;
+}
+
+.icon:hover {
+    color: #ff4c68;
+}
+
+#features {
+    padding: 7% 15%;
+}
+
+.box-features {
+    padding: 5%;
+}
+
+.features-text {
+    font-family: 'montserrat', bold;
+    font-size: 1.5rem;
+}
+
+p {
+    color: #8f8f8f;
+}
+
+/*testimonials*/
+#testimonials {
+    text-align: center;
+    background-color: #ef8172;
+    color: #fff;
+}
+
+.testimonial-image {
+    width: 10%;
+    border-radius: 100%;
+}
+
+.carousel-item {
+    padding: 7% 15%;
+}
+
+/*press*/
+#press {
+    background-color: #ef8172;
+    text-align: center;
+    padding-bottom: 3%;
+}
+
+.press-logo {
+    width: 15%;
+    margin: 20px 20px 50px;
+}
+
+/*pricing*/
+.pricing-space {
+    margin: 100px;
+    text-align: center;
+}
+
+/*CTA section*/
+
+#cta {
+    background-color: #ff4c68;
+    color: #ffff;
+    padding: 7% 15%;
+    text-align: center;
+}
+
+.cta-heading {
+    font-family: 'montserrat', black;
+    font-size: 3.5rem;
+    line-height: 1.5;
+
+}
+
+/*footer secton*/
+#footer {
+    padding: 7% 15%;
+    text-align: center;
+}
+
+.footer-icon {
+    width: 20px;
+    height: 20px;
+    margin: 20px 10px;
+}
+
+@media (max-width: 1028px) {
+    #title {
+        text-align: center;
+    }
+
+    .img-rotate {
+        position: static;
+        transform: rotate(0);
+    }
+
+    .pricing-space {
+        margin-top: 50px;
+    }
+}
